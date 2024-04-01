@@ -215,26 +215,15 @@ ssh-keygen
 * Type enter until it complete (ls -a to see hidden files)
 follow instructions...
 ```bash
-ls .ssh/
-sudo nano /etc/hostname
-init 6
-sudo -i
-useradd ansadmin
-passwd ansadmin
-visudo
-cd /etc/ssh
-nano sshd_config
-PasswordAuthentication yes
-service sshd reload
-sudo su - ansadmin
-ssh-keygen
+cd .ssh/
+ls
+sudo su -
 ls -a
 ls .ssh/
 ```
 
 * Install Ansible
 ```bash
-sudo su
 cd ~
 amazon-linux-extras install ansible2
 ansible --version
