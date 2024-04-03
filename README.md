@@ -1,5 +1,6 @@
 # ProjectApp - Step by step End-to-End Deployment process
-![Project](https://github.com/joelwatch/ProjectApp/assets/106047236/d8cbc4a0-62b6-4eaf-a05f-4ae4951f5d51)
+
+![Project](https://github.com/joelwatch/registration-app/assets/106047236/923da58c-a7e6-421e-856f-eae8a4f71aab)
 
 Deploy ec2 amazon-linux2 and Attach Admin role to give him Permission to Deploy Iac with Terraform
 
